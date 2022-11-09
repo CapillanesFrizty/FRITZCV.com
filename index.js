@@ -3,16 +3,14 @@ var year = currentyear.getFullYear();
 
 const copyright = document.getElementById("copoyright").innerText = "Copyright " +year;
 
-
-
 function toCookingPage() {
-    window.location = "./subhtml/tocook.html";
+    window.location = "./subhtml/Development.html";
 }
 
 function toProgramPage(){
-    window.location = "./subhtml/program.html";
+    window.location = "./subhtml/Development.html";
 }
 
 function totravel(){
-    window.location = "./subhtml/travel.html";
+    window.location = "./subhtml/Development.html";
 }
