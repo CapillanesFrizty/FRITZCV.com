@@ -68,9 +68,9 @@ html {
 
 .downlaodbtn {
   position: absolute;
-  top: 130%;
+  top: 115%;
   left: 5%;
-  padding: 20px;
+  padding: 15px;
   font-size: 20px;
 }
 
@@ -237,7 +237,7 @@ footer .socmeds li img {
   font-weight: bolder;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .navBar {
     height: 80px;
     width: 105.6%;
@@ -270,26 +270,498 @@ footer .socmeds li img {
     text-align: justify;
     font-size: 15px;
   }
-  .picOfMyself {
+  .picOfMyself {  
     width: 80%;
     margin-left: 35%;
   }
 
   .downlaodbtn {
     position: absolute;
-    top: 110%;
+    top: 115%;
     left: 5%;
     padding: 20px;
     font-size: 10px;
   }
 
   .card {
-    margin: 0px 0 0 -38px;
+    margin: 0px 0 0 -5px;
     display: flex;
     flex-direction: column;
   }
   .card2 {
-    margin: 0px 10px 0 -40px;
+    margin: 0px 10px 0 -5px;
+    cursor: pointer;
+  }
+
+  .card .image {
+    border: 1px solid black;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+  }
+  .card .image:hover {
+    background-color: rgba(93, 180, 242, 0.64);
+  }
+  .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card .caption h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+  }
+  .card .caption .description1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .downlaodbtn {
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  #hero {
+    height: 400px;
+    width: 105.6%;
+    overflow: hidden;
+    border-right: 0px;
+    box-shadow: 0px 0px black;
+    background-color: rgba(143, 193, 243, 0.568);
+  }
+
+  #skills {
+    width: 105.6%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 10% 0%;
+  }
+
+  .card .image {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+  .card .image:hover {
+    background-color: rgba(93, 180, 242, 0.64);
+  }
+
+  .card2 .image2 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card2 .image2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card2 .caption2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card .caption h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+  }
+  .card2 .caption2 h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+
+  #contact {
+    width: 105.6%;
+    height: 200%;
+    padding-top: 35px;
+    margin: 0% 0% 10% 0%;
+  }
+
+  .info h2 {
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+  .info #email {
+    margin: 10px 10%;
+    font-size: 18px;
+    padding: 0px;
+    width: 50%;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+
+  .textarea {
+    margin: 10px 10%;
+    width: 50%;
+    font-size: 20px;
+    resize: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+  .textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+  .info button {
+    width: 70px;
+    margin: 5px 10%;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    padding: 5px;
+  }
+  footer {
+    width: 105.6%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    border: 1px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+  }
+  footer .socmeds h3 {
+    display: none;
+  }
+  footer .socmeds {
+    position: relative;
+    list-style: none;
+    margin-left: 1%;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .socmeds .icons {
+    display: flex;
+  }
+  footer .socmeds li img {
+    width: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    height: 80px;
+    width: 105.6%;
+  }
+  .navBar a {
+    display: none;
+  }
+  .logo {
+    margin-top: 3px;
+    margin-left: 80px;
+  }
+
+  .introText {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 5%;
+  }
+  .introText h2 {
+    position: relative;
+    left: 6%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+  }
+  .description {
+    position: relative;
+    left: 6%;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .picOfMyself {  
+    width: 80%;
+    margin-left: 35%;
+  }
+
+  .downlaodbtn {
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .card {
+    margin: 0px 0 0 -50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card2 {
+    margin: 0px 10px 0 -50px;
+    cursor: pointer;
+  }
+
+  .card .image {
+    border: 1px solid black;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+  }
+  .card .image:hover {
+    background-color: rgba(93, 180, 242, 0.64);
+  }
+  .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card .caption h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+  }
+  .card .caption .description1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .downlaodbtn {
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  #hero {
+    height: 400px;
+    width: 105.6%;
+    overflow: hidden;
+    border-right: 0px;
+    box-shadow: 0px 0px black;
+    background-color: rgba(143, 193, 243, 0.568);
+  }
+
+  #skills {
+    width: 105.6%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 10% 0%;
+  }
+
+  .card .image {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+  .card .image:hover {
+    background-color: rgba(93, 180, 242, 0.64);
+  }
+
+  .card2 .image2 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card2 .image2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .card .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card2 .caption2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card .caption h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+  }
+  .card2 .caption2 h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    margin-left: 10%;
+  }
+
+  #contact {
+    width: 105.6%;
+    height: 200%;
+    padding-top: 35px;
+    margin: 0% 0% 10% 0%;
+  }
+
+  .info h2 {
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+  .info #email {
+    margin: 10px 10%;
+    font-size: 18px;
+    padding: 0px;
+    width: 50%;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+
+  .textarea {
+    margin: 10px 10%;
+    width: 50%;
+    font-size: 20px;
+    resize: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+  }
+  .textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+  .info button {
+    width: 70px;
+    margin: 5px 10%;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    padding: 5px;
+  }
+  footer {
+    width: 105.6%;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    border: 1px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+  }
+  footer .socmeds h3 {
+    display: none;
+  }
+  footer .socmeds {
+    position: relative;
+    list-style: none;
+    margin-left: 1%;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .socmeds .icons {
+    display: flex;
+  }
+  footer .socmeds li img {
+    width: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navBar {
+    height: 80px;
+    width: 105.6%;
+  }
+  .navBar a {
+    display: none;
+  }
+  .logo {
+    margin-top: 3px;
+    margin-left: 80px;
+  }
+
+  .introText {
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    left: 5%;
+  }
+  .introText h2 {
+    position: relative;
+    left: 6%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+  }
+  .description {
+    position: relative;
+    left: 6%;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .picOfMyself {  
+    width: 50%;
+    margin-left: 45%;
+  }
+
+  .downlaodbtn {
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .card {
+    margin: 0px 0 0 -50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card2 {
+    margin: 0px 10px 0 -50px;
     cursor: pointer;
   }
 
