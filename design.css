@@ -247,4 +247,16 @@ footer .socmeds li img {
   .navBar a{
     display: none;
   }
+  #hero{
+    width: 100%;
+  }
+  .introText{
+    width: 50%;
+    left:10%;
+  }
+  .picOfMyself{
+    width: 80%;
+    margin-top: 50%;
+    margin-left: 40%;
+  }
 }
