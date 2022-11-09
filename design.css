@@ -249,7 +249,7 @@ footer .socmeds li img {
   }
 
   #hero{
-    width: 120%;
+    width: 100%;
   }
   
 
@@ -272,7 +272,7 @@ footer .socmeds li img {
   }
 
   #skills{
-    width: 120%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
