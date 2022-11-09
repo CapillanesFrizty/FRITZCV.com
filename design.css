@@ -237,23 +237,22 @@ footer .socmeds li img {
   font-weight: bolder;
 }
 
-@media all and (max-width: 480px) {
-
-  [class*="col-"] {
-    width: 100%;
-  }
-
+@media screen and (max-width: 480px) {
   .navBar a{
     display: none;
   }
 
   .logo {
-    margin-top: 3px;
+    width: 13%;
+    margin-top: 7px;
     margin-left: 40px;
   }
 
   #hero{
-    width: 84.5%;
+    width: 85%;
+  }
+  #skills{
+    width: 85%;
   }
 
   .introText{
