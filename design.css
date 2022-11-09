@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -128,8 +127,8 @@ html {
   padding: 3px;
 }
 .card2 .image2:hover {
-    background-color: rgba(93, 180, 242, 0.64);
-  }
+  background-color: rgba(93, 180, 242, 0.64);
+}
 .card2 .image2 img {
   height: 100%;
   width: 100%;
@@ -137,15 +136,14 @@ html {
   border-radius: 50%;
 }
 .card2 .caption2 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 20px;
-    margin-left: -1%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  margin-left: -1%;
 }
 .card2 .caption2 h1 {
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
 }
-
 
 #contact {
   width: 100%;
@@ -238,72 +236,15 @@ footer .socmeds li img {
   font-weight: bolder;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  
+  .navBar {
+    background-color: black;
+  }
+  .logo {
+    margin-left: 50px;
+  }
   .navBar a{
     display: none;
   }
-
-  .logo {
-    width: 13%;
-    margin-top: 7px;
-    margin-left: 40px;
-  }
-
-  #hero{
-    width: 100%;
-  }
-  
-
-  .introText{
-    width: 50%;
-    left: 10%;
-    top: 20%;
-    background-color: bisque;
-  }
-
-  .downlaodbtn{
-    font-size: 20px;
-  }
-
-  .picOfMyself{
-    position: static;;
-    width: 100%;
-    margin-left: 30%;
-    margin-top: 50%;
-
-  }
-
-  #skills{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .card .image {
-    border: 1px solid black;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    padding: 3px;
-    margin: auto;
-  }
-  .card .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .card2 .image2  {
-    border: 1px solid black;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    padding: 3px;
-  }
-  .card2 .image2 img {
-    height:100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  
 }
