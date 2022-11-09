@@ -6,13 +6,13 @@ const copyright = document.getElementById("copoyright").innerText = "Copyright "
 
 
 function toCookingPage() {
-    window.location = "tocook.html";
+    window.location = "./subhtml/tocook.html";
 }
 
 function toProgramPage(){
-    window.location = "program.html";
+    window.location = "./subhtml/program.html";
 }
 
 function totravel(){
-    window.location = "travel.html";
+    window.location = "./subhtml/travel.html";
 }
