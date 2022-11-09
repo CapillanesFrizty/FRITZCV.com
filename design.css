@@ -238,7 +238,7 @@ footer .socmeds li img {
   font-weight: bolder;
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 320px) {
   .navBar a{
     display: none;
   }
