@@ -24,7 +24,9 @@
           website and some productive application. I also enjoy playing online
           and mobile games.
         </p>
-        <input class="downlaodbtn" type="button" value="Download Resumee" />
+        <a href="./testResume.pdf"
+          ><input class="downlaodbtn" type="button" value="Download Resumee"
+        /></a>
       </div>
       <img class="picOfMyself" src="./images/self.png" alt="" />
     </section>
@@ -34,7 +36,7 @@
         <div class="image">
           <img src="./images/cooking.gif" alt="cooking" />
         </div>
-        <div class="caption" >
+        <div class="caption">
           <h1>Cooking</h1>
         </div>
       </div>
@@ -58,14 +60,19 @@
     <section id="contact">
       <div class="info">
         <h2>Contact me:</h2>
-        <input
-          id="email"
-          type="email"
-          name="email"
-          placeholder="Enter your Email"
-        />
-        <textarea class="textarea" placeholder="Enter your Message"></textarea>
-        <button type="submit">Submit</button>
+        <form action="https://formsubmit.co/el/mopeti" method="POST">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your Email"
+          />
+          <textarea
+            class="textarea"
+            placeholder="Enter your Message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
 
